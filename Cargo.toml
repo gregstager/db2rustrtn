@@ -1,0 +1,11 @@
+[package]
+name = "db2rustrtn"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "db2rustrtn"
+crate-type = ["cdylib"]      # Creates dynamic lib
+
+[dependencies]
+libc = "0.2"
